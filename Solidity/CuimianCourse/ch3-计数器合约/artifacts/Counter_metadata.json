@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dec",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "inc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/CuimianCourse/ch3-计数器合约/index.sol": "Counter"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/CuimianCourse/ch3-计数器合约/index.sol": {
+			"keccak256": "0xe3272b2dd0db92c131fa0fa9a922ce15c74d5991b5f7bd9c5d58b0f8ef06d1cf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2eddf62627b9df26eb8f59a4c4f3eb28a32988ca7f9258c63c0f145c7a4d60e0",
+				"dweb:/ipfs/QmQVPASojYotvHWNNBgu18pvCL3bTkH9iCwm8rLgqsuxCd"
+			]
+		}
+	},
+	"version": 1
+}

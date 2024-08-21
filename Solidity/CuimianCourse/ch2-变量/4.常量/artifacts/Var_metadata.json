@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "MY_ADDRESS",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/CuimianCourse/ch2-变量/4.常量/index.sol": "Var"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/CuimianCourse/ch2-变量/4.常量/index.sol": {
+			"keccak256": "0x2fe9beb5eeab81ecb646d80ad5efd270f962a4772d22e8409e46ab44a74fe306",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fe8f7f1b6017246261ce5bd79b43ec57d7710d91b7eceb7a2cb702ddeef0321e",
+				"dweb:/ipfs/QmekhZ56zJNcY5qcEaWpJM6qTpLvuQVP9P3sK9UimYi8WG"
+			]
+		}
+	},
+	"version": 1
+}
