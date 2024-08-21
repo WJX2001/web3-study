@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "globalVars",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"cuimian/ch2-变量/2.全局变量/index.sol": "GlobalVariables"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"cuimian/ch2-变量/2.全局变量/index.sol": {
+			"keccak256": "0x6f242f980439c30659fc9331ab7aec7233d7225512dd1a446f19e16c157a41dc",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b82c260b3475bf3671480fc7f01621e3af1d133d2014903ff3874eb8135cd18a",
+				"dweb:/ipfs/QmR2TQj85kveALWsU4oBYdj3o8PqJdEHNrFiFwmn3z7RNX"
+			]
+		}
+	},
+	"version": 1
+}
