@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "initArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "storageArr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"1.数据类型/ch7-数组/3.多维数组/index.sol": "ArrayExample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"1.数据类型/ch7-数组/3.多维数组/index.sol": {
+			"keccak256": "0x5cb7e8097b341f0b3a3ba93c3ea70c1108af735b7a2b751d0f43e3b3d2fd2c5f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://17aef8fdd10575d4c683963e41d53e63b87f1f1d7eaed0a28764e9f204da3543",
+				"dweb:/ipfs/QmcsU1FiA5B8imEBZdKuhjMwTKyCYEuTX8vMtfydYURstP"
+			]
+		}
+	},
+	"version": 1
+}

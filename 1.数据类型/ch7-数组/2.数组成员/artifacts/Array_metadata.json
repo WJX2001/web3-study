@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pushPop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"1.数据类型/ch7-数组/2.数组成员/index.sol": "Array"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"1.数据类型/ch7-数组/2.数组成员/index.sol": {
+			"keccak256": "0xc7c52fdc8d1257a04246a05d263e0b17d65d07e648e236d4f454eaaa3b8e0bdf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b12aefa5fb516530f6fd3765f2a3202fd9ca921a3444b931bd7df6334744e7ac",
+				"dweb:/ipfs/QmXdstpAvBmGkDvqHWhALdTrQ6JfABvQeWk9hJz2ffqq72"
+			]
+		}
+	},
+	"version": 1
+}
