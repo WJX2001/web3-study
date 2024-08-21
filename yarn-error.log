@@ -1,0 +1,31 @@
+Arguments: 
+  /Users/wjx2020/.nvm/versions/node/v18.16.0/bin/node /opt/homebrew/bin/yarn add @remix-project/remixd
+
+PATH: 
+  /Users/wjx2020/.nvm/versions/node/v18.16.0/bin:/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/go/bin:/Users/wjx2020/.nvm/versions/node/v18.16.0/bin:/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/bin:/opt/homebrew/bin:/opt/homebrew/sbin:.:/Users/wjx2020/Desktop/code/machine-enviroment/maven/apache-maven-3.5.4/bin:/usr/local/go/bin:.:/Users/wjx2020/Desktop/code/machine-enviroment/maven/apache-maven-3.5.4/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: http://registry.npm.taobao.org/@remix-project%2fremixd: socket hang up
+      at connResetException (node:internal/errors:717:14)
+      at Socket.socketOnEnd (node:_http_client:526:23)
+      at Socket.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "_bool1",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "zeroCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"1.数据类型/ch5-字面值/1.sol": "BoolShortCiruit"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"1.数据类型/ch5-字面值/1.sol": {
+			"keccak256": "0x863cd7943bc6fa43ac7104e95c8c1af5fab457221a052812e1994df827de6fd6",
+			"urls": [
+				"bzz-raw://c6b8c502d0c923426c226bb6ea89082bec58d4757a8af30d2cc229a12f0aa8b1",
+				"dweb:/ipfs/QmaDt6pUAyZoALUTFX4yJev2VC4qnGjBniFfqGC1CdANu6"
+			]
+		}
+	},
+	"version": 1
+}
