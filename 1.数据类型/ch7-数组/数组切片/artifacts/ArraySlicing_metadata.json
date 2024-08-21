@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "payload",
+						"type": "string"
+					}
+				],
+				"name": "extracFourBytes",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"1.数据类型/ch7-数组/数组切片/ArraySlicing.sol": "ArraySlicing"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"1.数据类型/ch7-数组/数组切片/ArraySlicing.sol": {
+			"keccak256": "0x346097d3cd75f2830c0a953d04fffb3a82b760077ddfd58dce7ca114aee2c31e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://02dcca2bd4b4372f0844f73a2267dad323f3021f49e005621cf45d3970ce2429",
+				"dweb:/ipfs/QmV89RZyY1vyQXpUNtn4akP979sh6BnTy17yM7rSJ7LtN8"
+			]
+		}
+	},
+	"version": 1
+}

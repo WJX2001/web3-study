@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"1.数据类型/ch7-数组/index.sol": "ArrayDemo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"1.数据类型/ch7-数组/index.sol": {
+			"keccak256": "0xa9c69aec6adf6bdf1a444f404ae56c6c1453a6fbefde4daeeb540da023bc5b23",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d82d36d57aeeadd4e763dd6199d425fbd75f3c61462f7663f31206574c5126b4",
+				"dweb:/ipfs/QmW96Af9pgA9cDBCr1BANxJq1LXpmBgEKdh7VUTeJFJPZZ"
+			]
+		}
+	},
+	"version": 1
+}

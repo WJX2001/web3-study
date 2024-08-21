@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "choice",
+				"outputs": [
+					{
+						"internalType": "enum Enumtype.ActionChoices",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getChoice",
+				"outputs": [
+					{
+						"internalType": "enum Enumtype.ActionChoices",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"1.数据类型/ch6-枚举类型/index.sol": "Enumtype"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"1.数据类型/ch6-枚举类型/index.sol": {
+			"keccak256": "0x7f3c8e1fee0464c1e1baf9b7abc5af05c2457d789f556912c37dfc1913cb6535",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bfd97730471a3719982ae5066b8cd401c1afc23af414a018d84fc424795a0eaf",
+				"dweb:/ipfs/QmR2Ls2yhFurJArMXuk3vgEoPjQqz9g2LHS3bnF2twqFX3"
+			]
+		}
+	},
+	"version": 1
+}
