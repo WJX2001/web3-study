@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "setOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/CuimianCourse/2.部署合约/Proxy.sol": "TestContract1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/CuimianCourse/2.部署合约/Proxy.sol": {
+			"keccak256": "0x493713ad1464796888a747c4c70a50f0f7a566002599b8ca09eb569414ee1a5f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ca00789f066f444f339c944904c5825f3838985697a1038766506b5ea119759c",
+				"dweb:/ipfs/QmcR6JPqK3h1CVr7WdQuXPmSfZgGkUwBeiJTyVQzfbezZE"
+			]
+		}
+	},
+	"version": 1
+}
