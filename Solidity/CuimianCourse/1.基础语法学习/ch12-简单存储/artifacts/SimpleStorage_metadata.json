@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "text",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/CuimianCourse/1.基础语法学习/ch12-简单存储/SimpleStorage.sol": "SimpleStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/CuimianCourse/1.基础语法学习/ch12-简单存储/SimpleStorage.sol": {
+			"keccak256": "0xf97c82acb94a0cbfe58a2b677feae491779bbd3c5ffdc23fdc84829b7d3375b6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0a3e9724c4f6b1f075f2a0fdbe31e01f1226b90bfb98d8cf7e10e26cc479e02b",
+				"dweb:/ipfs/QmNvVDSojh1swNXCKSJ55Z1mzJFjcmiei5cd2jmFs6zFAJ"
+			]
+		}
+	},
+	"version": 1
+}

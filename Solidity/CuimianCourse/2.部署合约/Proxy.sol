@@ -42,6 +42,10 @@ contract Proxy {
             // n: 内存中机器码的大小
 
             // add 跳过0x20这个位置
+            /* 为什么跳过0x20这个位置，因为
+                solidity中在内存中的存储结构是前32字节，存储了bytes数据的长度，也就是0x20字节
+                所以需要跳过这个长度，后面的才是真正存储的字节码数据
+             */
             addr := create(callvalue(), add(_code, 0x20), mload(_code))
         }
 
@@ -63,7 +67,7 @@ contract Proxy {
 // TODO: 助手合约
 //
 contract Helper {
-    // TODO: 测试合约一的帮助函数
+    // TODO: 测试合约一的帮助函数 获取机器码
     function getBytecode1() external pure returns (bytes memory) {
         // type 得到部署合约所需要的机器码
         bytes memory bytecode = type(TestContract1).creationCode;
