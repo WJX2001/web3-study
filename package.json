@@ -4,5 +4,8 @@
   },
   "scripts": {
     "start": "node node_modules/@remix-project/remixd/src/bin/remixd.js"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.9"
   }
 }
