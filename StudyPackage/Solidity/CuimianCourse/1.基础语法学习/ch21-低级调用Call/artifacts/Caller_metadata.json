@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "callFallback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "callFoo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "callReceive",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendReceive",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transferReceive",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StudyPackage/Solidity/CuimianCourse/1.基础语法学习/ch21-低级调用Call/CallDetail.sol": "Caller"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StudyPackage/Solidity/CuimianCourse/1.基础语法学习/ch21-低级调用Call/CallDetail.sol": {
+			"keccak256": "0x2c07074ea169f6af9f01035776a722ba0192d7a963e927ae0d9f968f17d5f24d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6975a8568ea833e8fc1c02ae9d2e88d54f0108b56a44408013e05179e8998a34",
+				"dweb:/ipfs/QmP2SspBzN8Qq4rS9iPKoSABnhdLUBA2evxipgXbQPrmsn"
+			]
+		}
+	},
+	"version": 1
+}

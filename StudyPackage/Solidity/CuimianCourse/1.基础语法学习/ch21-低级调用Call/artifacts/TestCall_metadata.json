@@ -104,7 +104,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Solidity/CuimianCourse/1.基础语法学习/ch21-低级调用Call/Call.sol": "TestCall"
+			"StudyPackage/Solidity/CuimianCourse/1.基础语法学习/ch21-低级调用Call/Call.sol": "TestCall"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -118,7 +118,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Solidity/CuimianCourse/1.基础语法学习/ch21-低级调用Call/Call.sol": {
+		"StudyPackage/Solidity/CuimianCourse/1.基础语法学习/ch21-低级调用Call/Call.sol": {
 			"keccak256": "0x68a9673b74b40baba27b010a3e42de71e81934cc62de03ff280a02da3c74b3ee",
 			"license": "MIT",
 			"urls": [
