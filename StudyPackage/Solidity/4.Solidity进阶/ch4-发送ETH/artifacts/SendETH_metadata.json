@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transferETH",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StudyPackage/Solidity/4.Solidity进阶/ch4-发送ETH/index.sol": "SendETH"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StudyPackage/Solidity/4.Solidity进阶/ch4-发送ETH/index.sol": {
+			"keccak256": "0x47df6dcf1baa37b5f0d24fc1a6daa67913bed41039ce5ba75be3b4dcc7a5c738",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e49180b397073424e2f0491cab3fe8243a4ae0953253b0884d6eccb3207ed0e9",
+				"dweb:/ipfs/QmcPgzpy46mWzHMgC1afzzYxqL9y3q6hxASN9NfxJpYsEB"
+			]
+		}
+	},
+	"version": 1
+}
