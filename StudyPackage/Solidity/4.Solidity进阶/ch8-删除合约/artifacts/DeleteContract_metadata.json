@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "deleteContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StudyPackage/Solidity/4.Solidity进阶/ch8-删除合约/DeleteContract.sol": "DeleteContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StudyPackage/Solidity/4.Solidity进阶/ch8-删除合约/DeleteContract.sol": {
+			"keccak256": "0x44f086b4bdf3a46fcf18bb884c810fe09946d9221eb101aaa99d3386b0aeaec6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ade0cdc511e745c1f3d00af3f5b07f73036fbf39cb2e33cad20c34feaecb556e",
+				"dweb:/ipfs/QmVAosQjhow1mkK7oe3zHMBV82XiAbTpJYsZcKqVHFXyq5"
+			]
+		}
+	},
+	"version": 1
+}
