@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.7;
+pragma solidity ^0.8.20;
 
 // WETH 符合ERC20标准，它比普通的ERC20多了两个功能
 /**
