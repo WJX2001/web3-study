@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StudyPackage/部署到以太坊/index.sol": "Storage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StudyPackage/部署到以太坊/index.sol": {
+			"keccak256": "0x01114348b52cca28b455098601d4643d48722e9bae31785ba6fa53d1b3adc74d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b4980388816d7f2df274dfa3536788050055c25c5b780a258d6a42d95efef692",
+				"dweb:/ipfs/QmeDrqnM4PPKj45yu41PNTjmFH388gzmb4DaXhZkpuvo7H"
+			]
+		}
+	},
+	"version": 1
+}
