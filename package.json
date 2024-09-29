@@ -1,10 +1,12 @@
 {
   "dependencies": {
     "@remix-project/remixd": "^0.6.36",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "ganache": "^7.9.2"
   },
   "scripts": {
-    "start": "node node_modules/@remix-project/remixd/src/bin/remixd.js"
+    "remix": "node node_modules/@remix-project/remixd/src/bin/remixd.js",
+    "ganache": "ganache"
   },
   "devDependencies": {
     "hardhat": "^2.22.9"
