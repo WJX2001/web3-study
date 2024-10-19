@@ -8,17 +8,22 @@ pragma solidity 0.8.7;
 
 import "./PriceConverter.sol";
 
+// constant Immutable
+
+error NotOwner();
+
+
 contract FundMe {
     using PriceConverter for uint256;
-    uint256 public minimumUsd = 50 * 1e18;
+    uint256 public constant MINIMUM_USD = 50 * 1e18;
 
     address[] public funders;
     mapping(address => uint256) public addressToAmountFunded;
 
-    address public owner;
+    address public immutable i_owner;
 
     constructor() {
-        owner = msg.sender;
+        i_owner = msg.sender;
     }
 
     function fund() public payable {
@@ -27,7 +32,7 @@ contract FundMe {
         // 至少需要转1个ETH 10的 18次方 WEI
         // 需要先将msg.value从ETH转换为等价值的美元
         require(
-            msg.value.getConversionRate() > minimumUsd,
+            msg.value.getConversionRate() > MINIMUM_USD,
             "Didn't send enough"
         );
         // 18 decimals
@@ -71,7 +76,10 @@ contract FundMe {
     }
 
     modifier onlyOwner() {
-        require(msg.sender == owner, "Sender is not owner");
+        // require(msg.sender == i_owner, "Sender is not owner");
+        if (msg.sender != i_owner) {
+            revert NotOwner();
+        }
         _;
     }
 }
