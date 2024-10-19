@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@chainlink/contracts": "^1.2.0",
     "@remix-project/remixd": "^0.6.36",
     "dotenv": "^16.4.5",
     "ganache": "^7.9.2"

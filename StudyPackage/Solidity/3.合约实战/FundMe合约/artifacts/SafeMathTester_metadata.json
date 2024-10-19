@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "bigNumber",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StudyPackage/Solidity/3.合约实战/FundMe合约/SafeMathTester.sol": "SafeMathTester"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StudyPackage/Solidity/3.合约实战/FundMe合约/SafeMathTester.sol": {
+			"keccak256": "0xb31c42e9df0eaf454f77028cfd703e3189d153ebf66024899e055b267664c7f1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dff8614bec9d95d79fa87b682e49a737c510de828c1b34e1e2dc11774833e561",
+				"dweb:/ipfs/QmVjrWd2ybLNA5f5WzEdKmFTSombzrH3mzNn19UJZNxKSS"
+			]
+		}
+	},
+	"version": 1
+}
