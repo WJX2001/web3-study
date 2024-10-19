@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -65,6 +70,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -107,11 +125,11 @@
 			]
 		},
 		"StudyPackage/Solidity/3.合约实战/FundMe合约/FundMe.sol": {
-			"keccak256": "0x225202fc3e2146f6e79e3200b2983725f1ee3211768e536cb6bf17d252663ae2",
+			"keccak256": "0xedb1380b660ef04091b9a91b95b5db096edbdda2a7785c3434f905a8abbfcac1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ae9b4f57ef0e3f0c3b91c7d7b5c483f41d3df3bf5ef9cb477b8e649a71adb4fc",
-				"dweb:/ipfs/QmRoipYctaCjbUavNedEXXHSk3ZjUQkyTH6rMJpv8dVfBQ"
+				"bzz-raw://e620c87590eb71964ffb86f1176ea47051b0d9c07290e0abe76380af8269eb9c",
+				"dweb:/ipfs/Qmd1BEKwWHtpgrokx6ZiUhL5PcPNPVcz7pxai1bMm5TDan"
 			]
 		},
 		"StudyPackage/Solidity/3.合约实战/FundMe合约/PriceConverter.sol": {
