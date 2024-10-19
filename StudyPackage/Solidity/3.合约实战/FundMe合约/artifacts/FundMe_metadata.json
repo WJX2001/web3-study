@@ -16,6 +16,10 @@
 				"type": "error"
 			},
 			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
 				"inputs": [],
 				"name": "MINIMUM_USD",
 				"outputs": [
@@ -92,6 +96,10 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -130,11 +138,11 @@
 			]
 		},
 		"StudyPackage/Solidity/3.合约实战/FundMe合约/FundMe.sol": {
-			"keccak256": "0x257228959f23df905f5dbc2a933fd8f61b8ff3d78f3bc7d7686637d0f1aa81fe",
+			"keccak256": "0x88a9ed55b2af84098cae2b22e45adba331f9d8c3c7bd379e47e655d2f0c01bb4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8e1d87b0656185943f538282706ef69629c76b006c0a524832636ae7424429e6",
-				"dweb:/ipfs/QmXEx1tPnB6pSk49ZmcFfcxst6J4fMT8ZUexCyQqPwXvSu"
+				"bzz-raw://c27289f62b0645d218b00444feb412c4b3ff6cae3a7666283642150239b01839",
+				"dweb:/ipfs/QmRTh535LwsQYAeAAMSsqf5i9YS1jLTcoXm9Uni1Fs1dLg"
 			]
 		},
 		"StudyPackage/Solidity/3.合约实战/FundMe合约/PriceConverter.sol": {
