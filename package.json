@@ -3,11 +3,15 @@
     "@chainlink/contracts": "^1.2.0",
     "@remix-project/remixd": "^0.6.36",
     "dotenv": "^16.4.5",
-    "ganache": "^7.9.2"
+    "ethers": "^6.2.3",
+    "fs-extra": "^11.2.0",
+    "ganache": "^7.9.2",
+    "solc": "0.8.7-fixed"
   },
   "scripts": {
     "remix": "node node_modules/@remix-project/remixd/src/bin/remixd.js",
-    "ganache": "ganache"
+    "ganache": "ganache",
+    "compile": "solcjs --bin --abi --include-path node_modules/ --base-path ./ethers -o ./ethers ./ethers/SimpleStorage.sol"
   },
   "devDependencies": {
     "hardhat": "^2.22.9"
