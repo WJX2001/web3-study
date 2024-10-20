@@ -1,10 +1,11 @@
-require("dotenv").config({path: "../.env"})
+require("dotenv").config({ path: "../.env" })
 const ethers = require('ethers')
 const fs = require("fs-extra")
 
 async function main () {
   // HTTP://127.0.0.1:7545
   const provider = new ethers.JsonRpcProvider('http://127.0.0.1:7545')
+  console.log(encryptedJson)
   const wallet = new ethers.Wallet(
     process.env.PRIVATE_KEY,
     provider
@@ -16,7 +17,7 @@ async function main () {
   const contractFactory = new ethers.ContractFactory(abi, bin, wallet)
   console.log("deploying, please wait ...")
   const contract = await contractFactory.deploy() // STOP here Wait for contract to deploy!
- 
+
   // const deploymentReceipt = await contract.deploymentTransaction()
   // console.log(deploymentReceipt)
 
