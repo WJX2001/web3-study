@@ -14,6 +14,6 @@
     "compile": "solcjs --bin --abi --include-path node_modules/ --base-path ./ethers -o ./ethers ./ethers/SimpleStorage.sol"
   },
   "devDependencies": {
-    "hardhat": "^2.22.9"
+    "hardhat": "^2.22.13"
   }
 }
